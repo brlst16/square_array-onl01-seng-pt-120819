@@ -5,4 +5,6 @@ def square_array(array)
   array.each do |num|
     
     result << num**2 
+  end
+  result
 end
